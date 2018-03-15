@@ -15,8 +15,8 @@
 				<td><?= $count++; ?></td>
 				<td><?= $user->username; ?></td>
 				<td>
-					<a href="edit/<?= $user->id; ?>">Edit</a>
-					<a href="delete/<?= $user->id; ?>">Delete</a>
+					<a href="/users/edit/<?= $user->id; ?>">Edit</a>
+					<a href="/users/delete/<?= $user->id; ?>">Delete</a>
 				</td>
 			</tr>
 		<?php endforeach; ?>
